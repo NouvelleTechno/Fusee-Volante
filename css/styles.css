@@ -1,0 +1,31 @@
+body{
+	background-image: url("../images/background.png");
+	color: white !important;
+	font-weight: bold !important;
+	padding-top: 30px;
+}
+#rocket_dummy{
+  position: absolute;
+  top: 30vh;
+  width: 120px;
+  height: 295px;
+  left: 45vw;
+}
+ 
+#rocket_dummy .rocket_body{
+    position:absolute; top:0; left:0;
+    width:120px; height:200px;
+   	background: url('../images/rocket.png') -0px 0px no-repeat;
+}
+ 
+#rocket_dummy .fire{
+	position: absolute;
+	width: 120px;
+	height: 160px;
+	background: url('../images/rocket.png') -130px -17px no-repeat;
+}
+#rocket_dummy .fire.bottom{
+	left: 29px;
+	top: 154px;
+	display: none;
+}
